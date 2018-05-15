@@ -22,4 +22,9 @@ describe('Player', function() {
     assert.strictEqual(actual, 0);
   });
 
+  // it('should output value of selected category', function() {
+  // 
+  //   const actual = player.playCard(strength);
+  // })
+
 });
