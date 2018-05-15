@@ -6,6 +6,10 @@ const Game = function(player1, player2, deck){
   this.deck = [];
 }
 
+Game.prototype.addCard = function (card) {
+  this.deck.push(card);
+};
+
 Game.prototype.deal = function (player) {
   var pickedCard = this.deck.shift();
   player.hand.push(pickedCard);
