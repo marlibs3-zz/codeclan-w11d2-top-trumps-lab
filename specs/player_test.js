@@ -14,7 +14,7 @@ describe('Player', function() {
 
   it('should have a name', function() {
     const actual = player.name;
-    assert.strictEqual(actual, "Marta");
+    assert.strictEqual(actual, 'Marta');
   });
 
   it('should start with an empty hand', function() {
